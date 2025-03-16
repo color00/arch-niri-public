@@ -51,3 +51,4 @@ All of the work included in this repository is either directly created or heavil
 - [MyLinuxForWork](https://github.com/mylinuxforwork/dotfiles) | [ML4W](https://www.ml4w.com)
 - [Sway](https://swaywm.org)
 
+Special thanks to [YaLTeR](https://github.com/YaLTeR) for creating one of the best window managrs I've ever seen.  
