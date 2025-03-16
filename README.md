@@ -11,7 +11,7 @@
 Featuring:
 - Application Launcher: [Fuzzel](https://codeberg.org/dnkl/fuzzel)
 - File Manager: [Yazi](https://github.com/sxyazi/yazi)
-- GTK Themei and Terminal Color Scheme: [Tokyonight](https://aur.archlinux.org/pkgbase/tokyonight-gtk-theme-git)
+- GTK Theme and Terminal Color Scheme: [Tokyonight](https://aur.archlinux.org/pkgbase/tokyonight-gtk-theme-git)
 - Idle Management Daemon: [Swayidle](https://github.com/swaywm/swayidle)
 - Notification Daemon: [Dunst](https://dunst-project.org) | [Dunst GitHub](https://github.com/dunst-project/dunst)
 - Panel: [Waybar](https://github.com/Alexays/Waybar)
@@ -23,9 +23,14 @@ Featuring:
 - Window Manger: [Niri](https://github.com/YaLTeR/niri) 
 - Custom: [Scripts](.config/scripts)
 
-Fish shell terminal prompt from:
+Fish shell terminal prompt configured with:
  - [Fisher](https://github.com/jorgebucaran/fisher)
  - [Tide](https://github.com/IlanCosman/tide)
+```
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
+fisher install IlanCosman/tide@v6
+tide configure
+```
 
 List of all installed Arch packages and flatpaks can be found in the project [here](.config/current).  i
 
