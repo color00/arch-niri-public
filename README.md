@@ -28,7 +28,7 @@ Featuring:
 - Terminal Emulator: [Foot](https://codeberg.org/dnkl/foot)
 - Text Editor: [Helix](https://helix-editor.com)
 - Wallpaper Utility: [Swaybg](https://github.com/swaywm/swaybg) 
-- Window Manger: [Niri](https://github.com/YaLTeR/niri) 
+- Window Manager: [Niri](https://github.com/YaLTeR/niri) 
 - Custom: [Scripts](.config/scripts)
 
 List of all installed Arch packages and flatpaks can be found in the project [here](.config/current).
