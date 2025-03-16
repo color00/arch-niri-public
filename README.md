@@ -16,6 +16,7 @@
 Featuring:
 - Application Launcher: [Fuzzel](https://codeberg.org/dnkl/fuzzel)
 - File Manager: [Yazi](https://github.com/sxyazi/yazi)
+- Fonts: [Adwaita](https://gitlab.gnome.org/GNOME/adwaita-fonts)
 - GTK Theme and Terminal Color Scheme: [Tokyonight GTK Theme](https://aur.archlinux.org/pkgbase/tokyonight-gtk-theme-git)
 - Idle Management Daemon: [Swayidle](https://github.com/swaywm/swayidle)
 - Lockscreen: [GTKLock](https://github.com/jovanlanik/gtklock)
