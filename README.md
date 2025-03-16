@@ -1,7 +1,8 @@
 <div align="center">
 
-### [color00](https://github.com/color00)'s Niri dotfiles for Arch Linux | [Project](https://github.com/color00/arch-niri-public) | [README](https://github.com/color00/arch-niri-public/blob/main/README.md)
----
+<h1> [color00](https://github.com/color00)'s Niri dotfiles for Arch Linux </h1>
+
+ [Project](https://github.com/color00/arch-niri-public) | [README](https://github.com/color00/arch-niri-public/blob/main/README.md)
 
   <img src="assets/screenshot-01.png" alt="preview desktop" />
 
