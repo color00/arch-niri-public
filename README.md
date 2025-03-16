@@ -1,10 +1,8 @@
-<div align="center">
+Description: [color00](https://github.com/color00)'s' Niri dotfiles for Arch Linux.
 
-  Description: Niri dotfiles for Arch Linux. | Screenshots: \[[01](assets/screenshot-01.png)\] \[[02](assets/screenshot-02.png)\] \[[03](assets/screenshot-03.png)\] \[[04](assets/screenshot-04.png)\] | [Project](https://github.com/color00/arch-niri-public) | [README](https://github.com/color00/arch-niri-public/blob/main/README.md)
+<img src="assets/screenshot-01.png" alt="preview desktop"/>
 
-  <img src="assets/screenshot-01.png" alt="preview desktop"/>
-</div>
-
+ Screenshots: \[[01](assets/screenshot-01.png)\] \[[02](assets/screenshot-02.png)\] \[[03](assets/screenshot-03.png)\] \[[04](assets/screenshot-04.png)\] | [Project](https://github.com/color00/arch-niri-public) | [README](https://github.com/color00/arch-niri-public/blob/main/README.md)
 
 Fish shell terminal prompt from:
  - [Fisher](https://github.com/jorgebucaran/fisher)
