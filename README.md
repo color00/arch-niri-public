@@ -1,5 +1,4 @@
 <div align="center">
-
 <h1> Dotfiles for Niri on Arch Linux </h1>
 
   Screenshots: \[[01](assets/screenshot-01.png)\] \[[02](assets/screenshot-02.png)\] \[[03](assets/screenshot-03.png)\] \[[04](assets/screenshot-04.png)\] 
