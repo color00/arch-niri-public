@@ -1,4 +1,5 @@
 [color00](https://github.com/color00)'s Niri dotfiles for Arch Linux.
+
 [PROJECT](https://github.com/color00/arch-niri-public) | [README](https://github.com/color00/arch-niri-public/blob/main/README.md) 
 
 Special consideration to the following:
