@@ -1,0 +1,63 @@
+/* 
+   Importing colors from theme directory
+*/
+
+@import url("../themes/colors-waybar.css");
+
+* {
+   border: none;
+   font-family: Adwaita Sans;
+   min-height: 0;
+   min-width: 0;
+   padding: 4px 4px 4px 4px;
+   margin: 0 0 0 0;
+   border-radius: 16px;
+   font-size: 14px;
+   background-image: none;
+}
+
+window {
+   background: @bg_color;
+}
+
+button {
+  background-color: @bg_color;
+  color: @fg_color;
+  border-style: none;
+  border-width: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
+  margin: 4px 4px 4px 4px;
+}
+
+button:focus,
+button:active {
+   background-color: @bg_color;
+   color: @fg_color;
+   outline-style: none;
+}
+
+button:hover {
+   background-color: @highlight_color;
+}
+
+#lock {
+    background-image: image(url("../themes/wlogout-icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("../themes/wlogout-icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("../themes/wlogout-icons/sleep.png"));
+}
+
+#shutdown {
+    background-image: image(url("../themes/wlogout-icons/power.png"));
+}
+#reboot {
+    background-image: image(url("../themes/wlogout-icons/restart.png"));
+}
+

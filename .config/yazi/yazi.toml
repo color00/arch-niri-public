@@ -1,0 +1,17 @@
+# yazi config file 2024-10-20
+
+[manager]
+show_hidden = true
+sort_dir_first = true
+
+[opener]
+edit = [
+	{ run = 'hx "$@"', block = true, for = "unix" },
+]
+play = [
+	{ run = 'vlc "$@"', orphan = true, for = "unix" },
+]
+open = [
+	{ run = 'xdg-open "$@"', desc = "Open" },
+]
+# ...

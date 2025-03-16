@@ -1,0 +1,19 @@
+# color00 2025-03-16
+# config.toml for Helix
+
+theme = "base16_transparent"
+
+[editor]
+rulers = [80]
+text-width = 76
+
+[keys.normal]
+esc = ["collapse_selection", "keep_primary_selection"]
+
+[editor.file-picker]
+hidden = false
+
+[editor.soft-wrap]
+enable = true
+max-indent-retain = 0
+wrap-at-text-width = true

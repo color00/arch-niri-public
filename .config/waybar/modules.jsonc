@@ -1,0 +1,112 @@
+{
+   "niri/workspaces": {
+      "format": "{icon}",
+      "format-icons": {
+         "browser": "󰈹",
+         "chat": "",
+         "code": "",
+         "create": "",
+         "music": ""
+      }
+   },
+
+   "clock": {
+      "format": "{:%Y-%m-%d %H:%M}"  
+   },   
+
+   "battery": {
+      "full-at": 96,
+      "states": {
+         "good": 78,
+         "ok": 77,
+         "warning": 20,
+         "critical": 10
+      },
+      "format": "{icon} {capacity}%",
+      "format-charging": " {capacity}%",
+      "format-plugged": " {capacity}%",
+      "format-time": "{H}h {M}m",
+      "format-icons": [ "󰁺","󰁻", "󰁼", "󰁽", "󰁾","󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+      "tooltip": false
+   },
+
+   "network": {
+      "format-wifi": "󰤨",
+      "format-ethernet": "󰈀",
+      "format-disconnected": "󰤭",
+      "tooltip": false
+   },
+
+   "pulseaudio": {
+      "format": "{icon} {volume}%",
+      "format-muted": "",
+      "format-icons": {
+         "headphones": "",
+         "headset": "",
+         "default": ["","",""]
+      },
+      "tooltip": false
+   },
+
+   "privacy": {
+      "icon-spacing": 4,
+      "icon-size": 15,
+      "transition-duration": 250,
+      "modules": [
+         {
+         "type": "screenshare",
+         "tooltip": false,
+         "tooltip-icon-size": 15
+         },
+         // {
+         //    "type": "audio-out",
+         //    "tooltip": false,
+         //    "tooltip-icon-size": 15
+         // },
+         {
+         "type": "audio-in",
+         "tooltip": false,
+         "tooltip-icon-size": 15
+         }
+      ]
+   },
+
+   "tray": {
+      "icon-size": 15,
+      "spacing": 8
+   },
+   
+   "custom/idle-inhibitor": {
+      "exec": "$HOME/.config/scripts/waybar-idle-inhibitor.sh",
+      "return-type": "json",
+      "restart-interval": 2
+   },   
+
+   "custom/notifications": {
+      "exec": "$HOME/.config/scripts/waybar-notifications.sh",
+      "return-type": "json",
+      "restart-interval": 2
+   },
+
+   "custom/separator": {
+      "return-type": "text",
+      "interval": "once",
+      "format": "·",
+      "tooltip": false
+   },
+
+   "custom/tuned": {
+      "exec": "$HOME/.config/scripts/waybar-tuned.sh",
+      "return-type": "json",
+      "restart-interval": 2
+   },   
+
+   "custom/updates": {
+      "exec": "$HOME/.config/scripts/waybar-updates.sh",
+      "return-type": "json",
+      "exec-if": "[[ $(checkupdates | wc -l) ]]",
+      "interval": "once",
+      "on-click": "foot --app-id=sysadmin --title=update paru -Syu && notify-send 'The system has been updated' && echo 'Press any key to continue...' && read -n 1 -p ''"
+   }
+}
+
