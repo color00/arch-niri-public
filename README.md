@@ -1,6 +1,6 @@
 <div align="center">
 
-  ### [color00](https://github.com/color00)'s Niri dotfiles for Arch Linux.
+  ### [color00](https://github.com/color00)'s Niri dotfiles for Arch Linux
 
   <img src="assets/screenshot-01.png" alt="preview desktop"/>
 
@@ -8,9 +8,31 @@
 
 </div>
 
+Featuring:
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- [Tokyonight](https://aur.archlinux.org/pkgbase/tokyonight-gtk-theme-git) - GTK / Terminal theme
+
 Fish shell terminal prompt from:
  - [Fisher](https://github.com/jorgebucaran/fisher)
  - [Tide](https://github.com/IlanCosman/tide)
+
+List of all installed Arch packages and flatpaks can be found in the project [here](.config/current).  i
+
+Before theme switching, please install and set either "Tokyonight-Dark" or "Tokyonight-Light" GTK theme via:
+```
+gsettings set org.gnome.desktop.interface gtk-theme 'Tokyonight-Dark'
+  
+```
+or
+```
+gsettings set org.gnome.desktop.interface gtk-theme 'Tokyonight-Light'
+  
+```
 
 Special consideration to the following:
   - [Hyrpland](https://hyprland.org/)
