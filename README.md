@@ -1,15 +1,13 @@
 <div align="center">
 
-  ### [color00](https://github.com/color00)'s Niri dotfiles for Arch Linux
----
+### [color00](https://github.com/color00)'s Niri dotfiles for Arch Linux
 
   <img src="assets/screenshot-01.png" alt="preview desktop" />
----
 
   <img src="assets/screenshot-02.png" alt="desktop screenshot #2" width="30%" />
   <img src="assets/screenshot-03.png" alt="desktop screenshot #3" width="30%" />
   <img src="assets/screenshot-04.png" alt="desktop screenshot #4" width="30%" />
----
+------
 
   Screenshots: \[[01](assets/screenshot-01.png)\] \[[02](assets/screenshot-02.png)\] \[[03](assets/screenshot-03.png)\] \[[04](assets/screenshot-04.png)\] | [Project](https://github.com/color00/arch-niri-public) | [README](https://github.com/color00/arch-niri-public/blob/main/README.md)
 
