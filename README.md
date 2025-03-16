@@ -23,15 +23,13 @@ Fish shell terminal prompt from:
 
 List of all installed Arch packages and flatpaks can be found in the project [here](.config/current).  i
 
-Before theme switching, please install and set either "Tokyonight-Dark" or "Tokyonight-Light" GTK theme via:
+Before theme switching, please install the Tokyonight GTK theme and set "Tokyonight-Dark" or "Tokyonight-Light" GTK via:
 ```
 gsettings set org.gnome.desktop.interface gtk-theme 'Tokyonight-Dark'
-  
 ```
 or
 ```
 gsettings set org.gnome.desktop.interface gtk-theme 'Tokyonight-Light'
-  
 ```
 
 Special consideration to the following:
