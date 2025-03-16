@@ -2,6 +2,8 @@
 
 ### [color00](https://github.com/color00)'s Niri dotfiles for Arch Linux
 
+---
+
   <img src="assets/screenshot-01.png" alt="preview desktop" />
 
 
