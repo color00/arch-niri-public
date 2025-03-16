@@ -1,5 +1,5 @@
 <div align="center">
-  [color00\'s](https://github.com/color00) Niri dotfiles for Arch Linux.
+  [color00''s](https://github.com/color00) Niri dotfiles for Arch Linux.
 
   <img src="assets/screenshot-01.png" alt="preview desktop"/>
 
