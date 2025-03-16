@@ -88,10 +88,6 @@ hotkey-overlay {
    skip-at-startup
 }
 
-switch-events {
-   lid-close { spawn "gtklock"; }
-}
-
 binds {
    Mod+Q { close-window; }
 
@@ -238,7 +234,6 @@ binds {
    Mod+Shift+Slash { show-hotkey-overlay; }
    Mod+Shift+E { quit; }
    Mod+Shift+P { power-off-monitors; }
-   Ctrl+Alt+I { spawn "~/.config/scripts/toggle-idle-inhibitor.sh"; }
    Ctrl+Alt+L { spawn "gtklock"; }
    Ctrl+Alt+N { spawn "dunstctl" "set-paused" "toggle"; }
    Ctrl+Alt+T { spawn "~/.config/scripts/switch-desktop-theme.sh"; }
@@ -253,7 +248,6 @@ binds {
    Mod+G { spawn "mousepad"; }
    Mod+M { spawn "pavucontrol"; }
    Mod+N { spawn "dunstctl" "history-pop"; }
-   Mod+O { spawn "~/.config/scripts/power-profile.sh"; }
    Mod+P { spawn "~/.config/scripts/color-picker.sh"; }
    Mod+S { spawn "flatpak" "run" "com.spotify.Client"; }
    Mod+T { spawn "foot" "--title" "Helix" "hx"; }

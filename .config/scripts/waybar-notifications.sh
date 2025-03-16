@@ -1,5 +1,5 @@
 #!/bin/env bash
-# only show when on dnd
+# dunst notification daemon notification module
 
 msgCount=$(dunstctl count waiting)
 enabled=

@@ -76,16 +76,30 @@
       "spacing": 8
    },
    
-   "custom/idle-inhibitor": {
-      "exec": "$HOME/.config/scripts/waybar-idle-inhibitor.sh",
-      "return-type": "json",
-      "restart-interval": 2
-   },   
+   "idle_inhibitor": {
+       "format": "{icon}",
+       "format-icons": {
+           "activated": "",
+           "deactivated": ""
+       }
+   },
+
+   "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip": false,
+      "format-icons": {
+          "default": "󰓅",
+          "performance": "󰓅",
+          "balanced": "",
+          "power-saver": "󰌪"
+      }
+   },
 
    "custom/notifications": {
       "exec": "$HOME/.config/scripts/waybar-notifications.sh",
       "return-type": "json",
-      "restart-interval": 2
+      "restart-interval": 2,
+      "on-click": "dunstctl set-paused toggle"
    },
 
    "custom/separator": {
@@ -94,12 +108,6 @@
       "format": "·",
       "tooltip": false
    },
-
-   "custom/tuned": {
-      "exec": "$HOME/.config/scripts/waybar-tuned.sh",
-      "return-type": "json",
-      "restart-interval": 2
-   },   
 
    "custom/updates": {
       "exec": "$HOME/.config/scripts/waybar-updates.sh",

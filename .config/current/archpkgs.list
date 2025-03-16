@@ -616,6 +616,7 @@ python-more-itertools 10.6.0-1
 python-packaging 24.2-3
 python-platformdirs 4.3.6-2
 python-pycparser 2.22-3
+python-pyinotify 0.9.6-15
 python-pyudev 0.24.3-2
 python-pywayland 0.4.18-2
 python-requests 2.32.3-4
@@ -784,6 +785,7 @@ tslib 1.23-1
 ttf-nerd-fonts-symbols 3.3.0-1
 ttf-nerd-fonts-symbols-common 3.3.0-1
 tuned 2.25.1-1
+tuned-ppd 2.25.1-1
 twolame 0.4.0-4
 tzdata 2025a-1
 uchardet 0.0.8-3

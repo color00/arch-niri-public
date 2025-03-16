@@ -53,11 +53,11 @@ window#waybar {
 
 #battery,
 #clock,
-#custom-idle-inhibitor,
 #custom-notifications,
-#custom-tuned,
 #custom-updates,
+#idle_inhibitor,
 #network,
+#power-profiles-daemon,
 #privacy,
 #pulseaudio,
 #tray {
@@ -70,9 +70,9 @@ window#waybar {
    color: @middle_color;
 }
 
-#custom-idle-inhibitor,
 #custom-notifications,
-#custom-updates {
+#custom-updates,
+#idle_inhibitor {
    color: @first_right_color;
 }
 
@@ -80,8 +80,8 @@ window#waybar {
    color: @middle_right_color;
 }
 
-#custom-tuned,
-#battery {
+#battery,
+#power-profiles-daemon {
    color: @last_right_color;
 }
 
@@ -94,7 +94,7 @@ window#waybar {
    background-color: @tray_color;
 }
 
-#custom-tuned.performance {
+#power-profiles-daemon.performance {
    background-color: @caution_color;
    color: @invert_color;
 }

@@ -21,12 +21,12 @@
       "privacy",
       "custom/separator",
       "custom/updates",
-      "custom/idle-inhibitor",
+      "idle_inhibitor",
       "custom/notifications",
       "custom/separator",
       "pulseaudio",
       "custom/separator",
-      "custom/tuned",
+      "power-profiles-daemon", // via tuned and tuned-ppd
       "battery"
    ]
 }
