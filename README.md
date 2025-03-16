@@ -16,8 +16,9 @@
 Featuring:
 - Application Launcher: [Fuzzel](https://codeberg.org/dnkl/fuzzel)
 - File Manager: [Yazi](https://github.com/sxyazi/yazi)
-- GTK Theme and Terminal Color Scheme: [Tokyonight](https://aur.archlinux.org/pkgbase/tokyonight-gtk-theme-git)
+- GTK Theme and Terminal Color Scheme: [Tokyonight GTK Theme](https://aur.archlinux.org/pkgbase/tokyonight-gtk-theme-git)
 - Idle Management Daemon: [Swayidle](https://github.com/swaywm/swayidle)
+- Lockscreen: [GTKLock](https://github.com/jovanlanik/gtklock)
 - Notification Daemon: [Dunst](https://dunst-project.org) | [Dunst GitHub](https://github.com/dunst-project/dunst)
 - Panel: [Waybar](https://github.com/Alexays/Waybar)
 - Power Menu: [Wlogout](https://github.com/ArtsyMacaw/wlogout)
