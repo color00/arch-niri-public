@@ -18,9 +18,6 @@ alias ls="eza -lah --group-directories-first"
 # packages size, highest to lowest
 alias psize="paru -Qi | awk '/^Name/{name=\$3} /^Installed Size/{print \$4\$5, name}' | sort -hr"
 
-# global find
-alias gf="find / 2>&1 | grep -v 'Permission denied' | grep -v '.snapshots' | grep -v 'icons' | grep -i"
-
 # git dotfiles
 # this process is better explained here:
 # https://www.ackama.com/articles/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained/
