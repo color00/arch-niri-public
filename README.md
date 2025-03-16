@@ -23,6 +23,8 @@ Featuring:
 - Window Manger: [Niri](https://github.com/YaLTeR/niri) 
 - Custom: [Scripts](.config/scripts)
 
+List of all installed Arch packages and flatpaks can be found in the project [here](.config/current).
+
 Fish shell terminal prompt configured with:
  - [Fisher](https://github.com/jorgebucaran/fisher)
  - [Tide](https://github.com/IlanCosman/tide)
@@ -31,8 +33,6 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 fisher install IlanCosman/tide@v6
 tide configure
 ```
-
-List of all installed Arch packages and flatpaks can be found in the project [here](.config/current).  i
 
 Before theme switching, please install the Tokyonight GTK theme and set "Tokyonight-Dark" or "Tokyonight-Light" GTK via:
 ```
