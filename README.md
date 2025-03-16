@@ -9,13 +9,19 @@
 </div>
 
 Featuring:
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- [Tokyonight](https://aur.archlinux.org/pkgbase/tokyonight-gtk-theme-git) - GTK / Terminal theme
+- Application Launcher: [Fuzzel](https://codeberg.org/dnkl/fuzzel)
+- File Manager: [Yazi](https://github.com/sxyazi/yazi)
+- GTK Themei and Terminal Color Scheme: [Tokyonight](https://aur.archlinux.org/pkgbase/tokyonight-gtk-theme-git)
+- Idle Management Daemon: [Swayidle](https://github.com/swaywm/swayidle)
+- Notification Daemon: [Dunst](https://dunst-project.org) | [Dunst GitHub](https://github.com/dunst-project/dunst)
+- Panel: [Waybar](https://github.com/Alexays/Waybar)
+- Power Menu: [Wlogout](https://github.com/ArtsyMacaw/wlogout)
+- Shell: [Fish](https://fishshell.com)
+- Terminal Emulator: [Foot](https://codeberg.org/dnkl/foot)
+- Text Editor: [Helix](https://helix-editor.com)
+- Wallpaper Utility: [Swaybg](https://github.com/swaywm/swaybg) 
+- Window Manger: [Niri](https://github.com/YaLTeR/niri) 
+- Custom: [Scripts](.config/scripts)
 
 Fish shell terminal prompt from:
  - [Fisher](https://github.com/jorgebucaran/fisher)
@@ -32,13 +38,11 @@ or
 gsettings set org.gnome.desktop.interface gtk-theme 'Tokyonight-Light'
 ```
 
-Special consideration to the following:
-  - [Hyrpland](https://hyprland.org/)
-  - [Niri](https://github.com/YaLTeR/niri) 
-  - [Sway](https://swaywm.org/)
-
 All of the work included in this repository is either directly created or heavily influenced by the code and creative efforts of the following projects/individuals:  
- - [adi1090x](https://github.com/adi1090x) | [Archcraft](https://archcraft.io/)
- - [HyprNova](https://github.com/zDyanTB/HyprNova)
- - [JaKooLit](https://github.com/JaKooLit/Arch-Hyprland)
- - [MyLinuxForWork](https://github.com/mylinuxforwork/dotfiles) | [ML4W](https://www.ml4w.com/)
+- [adi1090x](https://github.com/adi1090x) | [Archcraft](https://archcraft.io)
+- [Hyprland](https://hyprland.org)
+- [HyprNova](https://github.com/zDyanTB/HyprNova)
+- [JaKooLit](https://github.com/JaKooLit/Arch-Hyprland)
+- [MyLinuxForWork](https://github.com/mylinuxforwork/dotfiles) | [ML4W](https://www.ml4w.com)
+- [Sway](https://swaywm.org)
+
