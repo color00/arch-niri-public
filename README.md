@@ -43,7 +43,7 @@ fisher install IlanCosman/tide@v6
 tide configure
 ```
 
-Before theme switching, please install the Tokyonight GTK theme and set "Tokyonight-Dark" or "Tokyonight-Light" GTK via:
+Before theme switching, please install the Tokyonight GTK theme and set "Tokyonight-Dark" or "Tokyonight-Light" via:
 ```
 gsettings set org.gnome.desktop.interface gtk-theme 'Tokyonight-Dark'
 ```
