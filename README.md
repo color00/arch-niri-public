@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1> [color00](https://github.com/color00)'s Niri dotfiles for Arch Linux </h1>
+<h1> color00's Niri dotfiles for Arch Linux </h1>
 
  [Project](https://github.com/color00/arch-niri-public) | [README](https://github.com/color00/arch-niri-public/blob/main/README.md)
 
