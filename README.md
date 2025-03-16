@@ -12,7 +12,9 @@
   Screenshots: \[[01](assets/screenshot-01.png)\] \[[02](assets/screenshot-02.png)\] \[[03](assets/screenshot-03.png)\] \[[04](assets/screenshot-04.png)\] | [Project](https://github.com/color00/arch-niri-public) | [README](https://github.com/color00/arch-niri-public/blob/main/README.md)
 
 </div>
+
 ---
+
 Featuring:
 - Application Launcher: [Fuzzel](https://codeberg.org/dnkl/fuzzel)
 - File Manager: [Yazi](https://github.com/sxyazi/yazi)
