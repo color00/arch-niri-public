@@ -10,5 +10,5 @@ Special consideration to the following:
 All of the work included in this repository is either directly created or heavily influenced by the code and creative efforts of the following projects/individuals:  
  - [adi1090x](https://github.com/adi1090x) | [Archcraft](https://archcraft.io/)
  - [HyprNova](https://github.com/zDyanTB/HyprNova)
- - [JaKooLit](https://github.com/JaKooLit)
- - [MyLinuxForWork](https://github.com/mylinuxforwork/dotfiles) | [ML4W](www.ml4w.com)
+ - [JaKooLit](https://github.com/JaKooLit/Arch-Hyprland)
+ - [MyLinuxForWork](https://github.com/mylinuxforwork/dotfiles) | [ML4W](https://www.ml4w.com/)
