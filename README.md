@@ -1,6 +1,10 @@
 [color00](https://github.com/color00)'s Niri dotfiles for Arch Linux.
 
-[PROJECT](https://github.com/color00/arch-niri-public) | [README](https://github.com/color00/arch-niri-public/blob/main/README.md) 
+[PROJECT](https://github.com/color00/arch-niri-public) | [README](https://github.com/color00/arch-niri-public/blob/main/README.md)
+
+Fish shell terminal prompt from:
+ - [Fisher](https://github.com/jorgebucaran/fisher)
+ - [Tide](https://github.com/IlanCosman/tide)
 
 Special consideration to the following:
   - [Hyrpland](https://hyprland.org/)
