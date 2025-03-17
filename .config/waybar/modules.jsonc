@@ -81,7 +81,8 @@
        "format-icons": {
            "activated": "",
            "deactivated": ""
-       }
+       },
+      "tooltip": false
    },
 
    "power-profiles-daemon": {
