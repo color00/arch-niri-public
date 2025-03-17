@@ -309,6 +309,11 @@ window-rule {
 }
 
 window-rule {
+   match app-id="sysadmin"
+   open-floating true
+}
+
+window-rule {
    match app-id="krita" title=r#"(.*)image(.*)$"#
    open-floating true
 }
