@@ -114,7 +114,7 @@
       "return-type": "json",
       "exec-if": "[[ $(checkupdates | wc -l) ]]",
       "interval": "once",
-      "on-click": "foot --app-id=sysadmin --title=update paru -Syu && notify-send 'The system has been updated' && echo 'Press any key to continue...' && read -n 1 -p ''"
+      "on-click": "foot --app-id=sysadmin --title=update paru -Syu && notify-send 'The system has been updated'"
    }
 }
 
