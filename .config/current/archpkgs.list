@@ -91,6 +91,7 @@ edk2-arm 202411-1
 edk2-ovmf 202411-1
 efibootmgr 18-3
 efivar 39-1
+element-desktop 1.11.95-1
 elfutils 0.192-4
 enchant 2.8.2-2
 ethtool 1:6.11-1
