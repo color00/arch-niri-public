@@ -248,7 +248,7 @@ binds {
    Mod+G { spawn "mousepad"; }
    Mod+M { spawn "pavucontrol"; }
    Mod+N { spawn "dunstctl" "history-pop"; }
-   Mod+P { spawn "~/.config/scripts/color-picker.sh"; }
+   Mod+P { spawn "~/.config/scripts/pick-color.sh"; }
    Mod+S { spawn "flatpak" "run" "com.spotify.Client"; }
    Mod+T { spawn "foot" "--title" "Helix" "hx"; }
    Mod+W { spawn "firefox"; }
