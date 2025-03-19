@@ -57,8 +57,8 @@ layout {
 
    focus-ring {
       width 3
-      active-gradient from="#E0AF68" to="#F52A65" 
-      inactive-gradient from="#E9E9ED" to="#15161E"
+      active-gradient from="#F52A65" to="#E0AF68" angle=-45
+      inactive-gradient from="#E9E9ED" to="#15161E" angle=-45
    }
 
    shadow {
