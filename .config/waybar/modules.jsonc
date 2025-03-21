@@ -113,7 +113,7 @@
    "custom/updates": {
       "exec": "$HOME/.config/scripts/waybar-updates.sh",
       "return-type": "json",
-      "exec-if": "[[ $(checkupdates | wc -l) ]]",
+      "exec-if": "[[ $(checkupdates-with-aur | wc -l) ]]",
       "interval": "once",
       "on-click": "foot --app-id=sysadmin --title=update paru -Syu && notify-send 'The system has been updated'"
    }
