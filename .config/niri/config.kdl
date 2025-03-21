@@ -257,144 +257,55 @@ binds {
    Mod+Z { spawn "flatpak" "run" "app.zen_browser.zen"; }
 }
 
-// floating windows
+// all windows
 window-rule {
-   match app-id=r#"com.belmoussaoui.Authenticator$"#
-   open-floating true
-}
-
-window-rule {
-   match app-id=r#"pavucontrol$"#
-   open-floating true
-}
-
-window-rule {
-   match app-id=r#"net.nokyan.Resources$"#
-   open-floating true
-}
-
-window-rule {
-   match app-id=r#"blueman-manager$"#
-   open-floating true
-}
-
-window-rule {
-   match app-id=r#"org.gnome.Calculator$"#
-   open-floating true
-}
-
-window-rule {
-   match title=r#"Preferences$"#
-   open-floating true
-}
-
-window-rule {
-   match app-id=r#"file-roller$"#
-   open-floating true
-}
-
-window-rule {
-   match title=r#"Open File$"#
-   open-floating true
-}
-
-window-rule {
-   match title=r#"Open Folder$"#
-   open-floating true
-}
-
-window-rule {
-   match title=r#"Save File$"#
-   open-floating true
-}
-
-window-rule {
-   match app-id="sysadmin"
-   open-floating true
-}
-
-window-rule {
-   match app-id="krita" title=r#"(.*)image(.*)$"#
-   open-floating true
-}
-
-window-rule {
-   match app-id="krita" title=r#"Open(.*)$"#
-   open-floating true
-}
-
-window-rule {
-   match app-id="krita" title=r#"(.*)Properties(.*)$"#
-   open-floating true
-}
-
-window-rule {
-   match app-id=r#"firefox$"# title="^Picture-in-Picture$"
-   open-floating true
-}
-
-
-// default window sizes 
-window-rule {
-   match app-id=r#"firefox$"#
-   default-column-width { proportion 0.96; }
-}
-
-window-rule {
-   match app-id=r#"zen$"#
-   default-column-width { proportion 0.96; }
-}
-
-window-rule {
-   match app-id=r#"vlc$"#
-   default-column-width { proportion 1.0; }
-}
-
-window-rule {
-   match app-id=r#"krita$"#
-   default-column-width { proportion 1.0; }
-}
-
-window-rule {
-   match app-id=r#"com.obsproject.Studio$"#
-   default-column-width { proportion 0.96; }
-}
-
-window-rule {
-   match app-id=r#"com.vscodium.codium*"#
-   default-column-width { proportion 0.96; }
-}
-
-window-rule {
-   match app-id=r#"org.gnome.meld*"#
-   default-column-width { proportion 0.96; }
-}
-
-window-rule {
-   match app-id=r#"^Spotify$"#
-   default-column-width { proportion 0.96; }
-}
-
-window-rule {
-   match app-id=r#"^discord$"#
-   default-column-width { proportion 0.96; }
+   geometry-corner-radius 12
+   clip-to-geometry true
 }
 
 // hide sensitive windows from screencaps
 window-rule {
    match app-id=r#"^Bitwarden$"#
-   block-out-from "screen-capture"
-}
-
-window-rule {
    match app-id=r#"com.belmoussaoui.Authenticator$"#
    block-out-from "screen-capture"
 }
 
-// all window properties
+// floating windows
 window-rule {
-   geometry-corner-radius 12
-   clip-to-geometry true
+   match app-id="krita" title=r#"(.*)image(.*)$"#
+   match app-id="krita" title=r#"Open(.*)$"#
+   match app-id="krita" title=r#"(.*)Properties(.*)$"#
+   match app-id=r#"blueman-manager$"#
+   match app-id=r#"file-roller$"#
+   match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+   match app-id=r#"net.nokyan.Resources$"#
+   match app-id=r#"org.gnome.Calculator$"#
+   match app-id=r#"pavucontrol$"#
+   match app-id="sysadmin"
+   match title=r#"Open File$"#
+   match title=r#"Open Folder$"#
+   match title=r#"Preferences$"#
+   match title=r#"Save File$"#
+   open-floating true
+}
+
+// default window sizes 
+window-rule {
+   match app-id=r#"^discord$"#
+   match app-id=r#"Element$"#
+   match app-id=r#"firefox$"#
+   match app-id=r#"org.gnome.meld*"#
+   match app-id=r#"^Spotify$"#
+   default-column-width { proportion 0.96; }
+}
+
+window-rule {
+   match app-id=r#"com.obsproject.Studio$"#
+   match app-id=r#"com.vscodium.codium*"#
+   match app-id=r#"krita$"#
+   match app-id=r#"vlc$"#
+   match app-id=r#"zen$"#
+   default-column-width { proportion 1.0; }
 }
 
 // startup apps
